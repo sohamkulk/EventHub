@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: "Inter", sans-serif;
+}
+
+/* Smooth page transitions */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
